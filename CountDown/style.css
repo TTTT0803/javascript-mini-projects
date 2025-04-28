@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+  width: fit-content; /* hoặc width: 100%; nếu bạn muốn full */
+}
+
+.wrapper img {
+  width: 100%; /* Cho hình ảnh full */
+  height: auto;
+  display: block;
+}
+
+.time {
+  position: absolute;
+  top: 50%; /* Đẩy xuống giữa */
+  left: 50%; /* Đẩy qua giữa */
+  transform: translate(-50%, -50%); /* Canh đúng tâm */
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các label */
+  font-size: 3rem;
+  color: white; /* Cho dễ đọc */
+}
