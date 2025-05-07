@@ -1,6 +1,43 @@
-.number {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.list-group {
-  text-align: center;
+body {
+  background-color: rgb(224, 210, 193);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.number_counter {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.button_counter {
+  display: flex;
+  gap: 20px;
+}
+.wrapper .button_counter button {
+  width: 60px;
+  height: 40px;
+}
+.button-click-add {
+  background-color: green;
+  color: white;
+}
+
+.button-click-0 {
+  background-color: yellow;
+  color: black;
+}
+
+.button-click-dis {
+  background-color: red;
+  color: white;
 }
